@@ -1,0 +1,647 @@
+Which of these objects can you NOT duplicate?
+Data Store
+Process Model
+Expression Rule
+Interface
+1
+
+Which of these objects can you NOT duplicate?
+Data Store
+Process Model
+Expression Rule
+Interface
+1
+
+Why do we use Records?
+You must use records to integrate with extermal data sources
+Records create silos of information
+Records help push awareness of the latest product information
+Records provide the leanest way to assemble and maintain process applications
+4
+
+Where would newly installed Component type Plug-ins appear in the Interface Designer?
+They do not appear in the Interface Designer
+In the Palette,under Custom Patterns
+In the Palette.under Custom Components
+in the Temptates
+2
+
+In order for a Basic User to see an Application Action in Tempo,they must have access to which of the
+following?
+Any undertying data stores and CDTs asscciated with the process model
+All of the application's process models
+The application and the process model used for the Action
+All are correct
+3
+
+What are the 4 types of gateways?
+AND.OR.IF.Complex
+AND.OR,XOR.Custom
+AND.OR.IF.Custom
+AND,OR,XOR Complex
+4
+
+Which of the following actions remains possible when a CDT is not configured with a Primary Key?
+Update an existing row in an entity using the Write to Data Store smart service
+Delete an existing row in a database table from the CDT using the Delete from Data Store Entities smart service
+insert a new row in an entity using the Write to Data Store Activity
+Retrieve a row with a specific index from an entity using a queryEntity Expression Rule
+3
+
+In order to create a Default Filter for a Customer Record that limits users to see only customers from their country,after selecting the country field,which of the following is the most valid expression?
+isusermemberofgroup(consIAPP_ACCOUNT_MANAGERS,loggedInUser)
+tnllimitUserAccess("country")
+user("country")
+if(loggedlnUser.country=rfcountry,true,null)
+
+Which one of the following describes a Record-centric approach?
+Having one Record per Application
+Creating a different Interface for every Record available
+Creating a Related Action through a Process Start Form in a Process Model
+Creating every Action without a Process Start Form
+3
+
+Where in Appian can I view News Feed posts,other than from the News tab in Tempo?
+Reports
+Tasks
+Records
+Actions
+3
+
+Which of the following is a benefit of using the Start Process Smart Service to launch a Sub-Process?
+Can pass variables by reference
+Can start the process on any engine
+Binds the "Recetving"process model to the "Sender"process model
+Can be run synchronously
+2
+
+A user with editor security rights to a process model cannot perform which of the following actions?
+Publish the process model
+Save the process model
+Ovemde task assignment (whether or not reassignment is allowed)
+View the process model documentation
+1
+
+Which environment tool is intended for those in an IT Support role?
+Tempo
+Admin console
+Appian Designeg
+Sites
+2
+
+Which of the following should you take into consideration before deploying Appian?
+All answers are correct
+Managing Import Customization Files
+SQL Script Deployment
+Test Automation
+1
+
+Appian is first and foremost which of the following?
+Mobile application development
+Enterprise Application Platform
+CRM Tool
+Workflow tool
+4
+
+Data Stores need to be re-verified:
+When matching CDTs are changed
+When the data source changes
+All other answers are correct
+When the database table changes
+3
+
+Which of the following statements are true about descriptions on Appian objects?
+Object descriptions enable self-documenting application logic
+Object descriptions are dynamic and expressionable
+object descniptions are displayed to end users
+New objects cannot be created without a description
+1
+
+When configuring a User Input Task Form,the data must be mapped into which variables in order to
+pass the information to another activity?
+Record Fields
+Process Variables
+Activity Return ues
+Process Properties
+2
+
+How can you unsubscribe from system-generated News posts?
+Click the delete button.
+Click Unsubscribe in User Settings for the corresponding feed.
+On the Admin Console.select Data Retention and select the News checkbox.
+You cannot unsubscribe from system-generated News posts.
+2
+
+What do the orange-colored warning exclamation marks signify in a Decision Table?
+Overlapping logic for output result
+Incorrect spelling
+Mandatory rows left empty
+Incomplete logic for input values
+3
+
+What must you ensure when calling a Decision rule in an Expression?
+To pass the keywords for text parameters only
+To pass the keywords for parameters
+To use dec!
+To wrap it inside an if()function
+2
+
+Which of the following expressions returns Jackie Robinson's supervisor?
+alorgChartField("j.robinson")
+user("j.robinson","supervisor")
+touser(supervisqr.".robinson")
+supervisor("]robinson")
+2
+
+Which of the following is not an example of a valid expression?
+1002
+10:2
+10<2
+10<=2
+2
+
+In an Appian Customer Relationship Management application,which type of object would you most likely use to add a new customer?
+Record
+Master Detail Interface
+Process Model
+Report
+3
+
+Which of the following is not true of security in Appian?
+Appian has an opt-in security model
+Users must be granted access to specific pieces of functionality and components based on their business need
+Users do not haye access to anything by default
+User rights should be assigned to individual users.not to groups
+4
+
+Which of the following statements are true about activity class parameters (Node Inputs)?
+Node Inputs(ac!)cannot be used in Node Outputs
+When debugging.you can view Node Input values in monitor mode
+Node Inputs cannot use Custom Data Types(CDTs)
+Node Inputs can be saved into Process Variables (PVs)on the data tab of a User Input Task
+4
+
+Which of the following is NOT a valid method for creating new users in Appian?
+Integrate with LDAP.
+Import an application that contains the desired users
+Run a process that calls the Add User Smart Service.
+Integrate with SAML.
+2
+
+Which of the following is not true regarding form usability?
+Forms that have more than 300 components have greatly reduced usability
+Forms should minimize scrolling
+Horizontal scrolling is acceptable if you need to display more information
+Card layouts can help a form present instantly obvious choices
+4
+
+A basic user can have access to how many sites?
+4
+5
+2
+Unlimited
+4
+
+Which of these is a valid HTTP Method for creating a Web API?
+SUBTRACT
+REMOVE
+REPLACE
+DELETE
+4
+
+Which data type should be assigned to the field used as an automatically generated primary key?
+Number (Integer)
+Date
+Boolean
+Text
+1
+
+If a user is deactivated,which of the following actions must you perform in order for that user to be able to log in again?
+You must create a new account with the same information
+You must reactivate the user account.
+You must create new account with different information.
+Nothing.  The account is automatically reactivated when user logs in
+2
+
+An Input column on a Decision table can be...
+Text Only
+Text or Numbers
+Any Data Type
+Any Primitive Type
+4
+
+In an application named Case Management System,which of the following Constants adheres to Appian object naming standards?
+CMS_ContentType
+content Type
+CMS_CONTENT TYPE
+CONTENT TYPE
+3
+
+Editing a Process Instance allows you to do all of the following,except which one of these actions?
+Add new objects to the process flow
+Display the process model properties
+Switch forth between published versions
+Change the process flow
+2
+
+Which two groups should you always create when designing an application?
+Application Administrator Application Users Group
+Process Modelers Quick App Developers
+Application Administrator All Editors Group
+Application Editors All Viewers Group
+1
+
+Which of the following is true about using auto-generate for the primary key of a CDT?
+Nf auto-generate is selected,the database creates the value stored in the primary key column on insert.
+If the primary key is set to auto-generate,you won't be able to update existing database records
+If auto-generate is selected,the table uses multiple columns to define the primary key
+If auto-generate is defined,a foreign key relationship is added.
+1
+
+Which of the following is a best practice for News Feed items?
+Use the Administrator account when posting system events
+Track status changes using News Feed Posts
+Use News to flag business problems that require escalation,action,or input from additional parties.
+Use News to post the creation and closing of all cases.
+3
+
+According to the Appian UX Design Guide,when adapting a drilldown pattern for one of your reports, which of the following should you typically incorporate?
+A query to track system performance when drilling down.
+An editable grid
+An icon to indica whether the drilldown was successful or not
+A link to retum to the previous chart or grid
+4
+
+Which of these is NOT a possible Output column for a Decision Table?
+Connected System
+Document
+User
+Proces Model
+1
+
+What does the domain prefix 'ac!'refer to?
+All Classes
+Activity Class Parameters
+Active Constants
+Action Classes
+2
+
+What is the maximum amount of data that a query can return by default?
+3MB
+5MB
+1MB
+10MB
+3
+
+If users should immediately be taken to a page other than Tempo when they login,where would I configure this setting?
+Admin Console
+sites
+Appian Designe
+Tempo
+1
+
+Which of these items allows data to be passed from another source at the beginning of a process?
+Activity Class Parameters
+Any Process Variable
+Parameterized Process Variables
+Rule Inputs
+3
+
+All but which of the following are considerations for storing completed process instances?
+Processes should wnite to the database if data is needed for an extended period
+Completed processes still occupy memory for the data management period
+When process instances are archived,instances are removed from memory and stored to disk
+Archiving affects all process instances
+1
+
+Which of the following statements are true regarding the naming conventions for Expression Rules?
+The Expression Rule name should follow a developer-specific naming convention.
+The Expression Rule name should describe the main purpose of the rule and be consistent within the application.
+The Expression Rule name should contain the developer's initials.
+The Expression Rule name should describe the various categories of the rule with a category prefix.
+2
+
+Which of the following data types cannot be referenced using a constant?
+Text
+User
+Custom Data Type (CDT)
+Document
+3
+
+Which type of user is able to create other Appian users?
+Users in the Process Model Creators Group
+All answers are correct
+Users in the Designers Group
+System Administrators
+4
+
+When should the fv!domain prefix be used?
+When the function is used next to a literal value
+Any time a function is used
+When calling a tunction that allows variables to be passed to one or more inputs
+When using connector functions
+2
+
+Which of the following statements is true?
+All Related Actions are also Application Actions
+All Tasks are generated by Actions
+All Actions start a process instance
+All Actions generate Tasks
+3
+
+How can users be deleted from the system?
+A user cannot be deleted,only deactivated
+In the Appian Designer,select a user and choose "Delete User"
+Under Settings ip Tempo,a user can choose to "Delete my Account"
+Using the Delete User Smart Service
+1
+
+Which of the following variables are retained in memory until your Data Management configuration
+cleans them up?
+Local Variables
+Rule Inputs
+Node Inputs
+Process Variables
+4
+
+What type of database relationship would a Vehicle Table and Parts Table likely have?
+One to Many
+Many to One
+Many to Many
+One to One
+1
+
+At a minimum,which of the following user rights are needed to initiate an Action in Tempo?
+Viewer rights to the Process Model the Action calls.
+Initiator rights to the Process Model the action calls
+Viewer rights for the Application and Initiator rights for the Process Model
+Viewer rights for both the Application and the Process Model.
+2
+
+Which of the following is true regarding importing applications into different versions in Appian?
+An application created in any version of Appian can be imported into any other version.
+Applications can be imported into later versions (for example.an application created in version 18.4 can be imported into a 19.4 environment)
+Application version and environment version must match in order to successfully import(e g.application created in 19.2 and new environment is 18.2
+Applications can be imported into earlier versions (for example an application created in 19.3 can be imported into a 19.2 environment)
+2
+
+Which of the following lists of data types include valid elements of a Custom Data Type?
+Text,Decimal,Date and Time.Folder.Boolean
+Text,Decimal,Date and Time,Group,Boolean
+Text,Decimal,Date and Time,User,Boolean
+Text,Decimal,Date and Time,Document,Boolean
+4
+
+Which of the following is a valid method of creating new users in Appian?
+Add a new User from the Users menu in the Admin Console
+Run a Process that calls the Add User to Group Smart Service
+Create a User directly within a Group in the Appian Designer
+Add a new User from the Settings menu in Tempo
+1
+
+Which of the following is NOT a valid option for creating a Web API?
+Document Upload
+Query Record Type
+Write to Data Store
+Pause Process
+4
+
+What types of native charts can be created in Appian reports?
+Bar,Column,Line,or Gantt
+Bar,Column,Line, or Pie
+Bar,Column,Line,or Scatter
+Line,Bar,or Column
+2
+
+What is the correct result of this expression?a!forEach(items:(1,3,5),expression:fv!item"fv!index)
+{0,3,10}
+{1,6,15}
+{1,3,5}
+{1,9,25}
+2
+
+When constructing a Site,which of the following is true?
+Access to each page is defined on the Admin Console
+Access to individual pages are controlled by the Security of the Site object
+Each page can define its own visibility rule
+All pages must be visible to all users of the site
+3
+
+When debugging an interface,what does it usually mean when an error message displays:"The target is missing?"
+The incorrect prefix was used.
+A comma is missing.
+There is a typo i the name of a function.
+A parenthesis is missing.
+2
+
+Where can you view system users and the specific groups they belong to?
+Users View in the Appian Designer
+Quick Apps Designer
+Admin Console
+Settings tab in Sites
+1
+
+If I want users to view more information by clicking a link within a grid,which of these functions should I use?
+aleventData()
+aldynamicLink()
+alreportLink()
+allink()
+2
+
+Which of the following is true for archiving?
+Archiving data reduces the size of a kdb file
+Archiving data cannot be queried in Appian without unarchiving
+Archived data is available for monitoring in designer
+Archiving a process is the same as deleting the process
+2
+
+
+What can be created to show more extended information about tasks other than the default work queue?
+It is not possible to add extra views to the Tasks Tab in Tempo
+Actions
+News posts
+Task Reports
+4
+
+Which of the following objects cannot be added to an Appian Application?
+Feed
+Group
+Expression Rule
+User
+4
+
+Which of the following is not true when reusing interfaces?
+Form Interfaces can reuse layout components,such as sections
+If interfaces contain more than 10 parameters,use individual rule inputs rather than CDTs
+Intertaces are rules so they can be reused across forms,records,or reports
+It is possible to spend more time building a fully reusable interface than building and maintaining separate interfaces.
+2
+
+A Record Action can be opened in which of the following ways?
+Dialog Box only
+New Tab or Same Tab
+Same Tab only
+Dialog Box,New Tab,Same Tab
+4
+
+Which of the following practices helps you to create scalable process models?
+Archive processes after 8 or more days.
+Design short-lived processes
+Build unitary models that include between 100-300 activities
+Activity chain flows between Script Tasks and End Events
+2
+
+An interface named ABC recordInterface uses the expression rule CMN userFormatName to display a user name properly.What best describes the relationship between ABC recordInterface and CMN userFormatName?
+CMN userFormatName is a dependent of ABC_recordInterface.
+Since ABC recordInterface uses CMN_userFormatName, CMN_userFormatName is prevented from deletion.
+When exported, CMN userFormatName is automatically added to the same folder as ABC_recordInterface.
+CMN userFormatName is a direct precedent of ABC recordInterface
+4
+
+What is not an example of a built-in literal value?
+null
+FALSE
+TRUE
+zero
+4
+
+Which of the following is true about the Appian Health Check?
+It utilizes data within all running processes
+You should run the Health Check during high system activity to gather realistic stress load data
+It modifies data within Appian
+It utilizes loa data and process model confiqurations
+4
+
+Which Application feature allows you to set security on many application objects at once?
+Application Security
+Security Summary
+Application Properties
+Missing Precedents
+2
+
+What is NOT an option when creating a CDT in the Appian Designer?
+Import XSD file
+Create from scratch
+Create from existing database table or view
+Import from Excel
+4
+
+What is the correct way to update the name of a group?
+Select the Group's Properties,then update its name.
+Create a Process Model for changing the Group's name,then run the process.
+Delete and recreate the group with a new name
+You cannot update the name of a group,once it is created.
+1
+
+Where is the configuration of a Related Action Shortcut done?
+In a Related Action of the Record Type
+In a View of of the Record Type
+The Input Tab of,the Task associated with the Interface in the Process Model
+The Interface for the Related Action
+2
+
+What is the purpose of SAML Authentication in the Admin Console?
+To configure Active Directory
+To authenticate Designers
+To configure Secunity Archives
+To configure single sign-on (SSO)
+4
+
+When creating a data type for a new record,an a id column is created by the Data Store if you ignore which of the following settings?
+The Foreign Key
+Clicking New Data Store Entity
+The Auto-generae the next unique identifier checkbox
+The Primary Key
+4
+
+In an Appian Customer Relationship Management application,which tab in Tempo would you most likely use to aggregate customer satisfaction data?
+Tasks
+News
+Records
+Reports
+4
+
+What's another name for a Node Input?
+Default Value
+Process variable
+Local Variable
+Activity Class Parameter
+4
+
+Which of these statements is completely untrue regarding news posts?
+News posts are most useful for alerting someone to provide input into a active process
+News posts can be linked to records,allowing quick navigation between communications and data
+News posts display an ongoing list of entries created by fellow users,system administrators,and internal business processes
+News posts provide a useful way to communicate a deadline is looming,has passed,or an escalation has occurred
+1
+
+Your application has a sub-process that is expected to run thousands of times a week. What is the best way to configure the sub-processes to use the maximum number of threads?
+Use a Synchronous Sub-Process Activity
+Use a Synchronous Sub-Process with variables mapped by reference.
+Use a Sub-Procss configured using the Start Process Activity
+Use an Asynchronous Sub-Process Activity
+3
+
+What does using an expression after the a!localVariables()function allow Developers to do?
+Recalculate local variable values after a referenced variable changes
+Defer evaluation of a function until the remaining arguments are available
+Set null values to true
+Use nested arrays within looping functions
+1
+
+Which of the following statements are true regarding process deadlines?
+They can appear on reports
+They affect workflow
+They trigger Exception Flows
+They trigger Escalations
+4
+
+When retrieving data,which cascade type will overwrite the values of a nested CDT with the latest value from the RDBMS?
+PERSIST
+REFRESH
+MERGE
+REMOVE
+2
+
+What would be the output of the following function?length("Test String")
+10
+11
+1
+0
+3
+
+When using the Data Store Entity smart service,the node will fail unless which of the following have been set?
+The ACIStoredValues have been mapped to the pv!
+An extra input has been set up to map the values to be stored
+A script task has been created to format the data
+The assignment has been set to the process initiator
+2
+
+When using the Data Store Entity smart service,the node will fail unless which of the following have been set?
+The ACIStoredValues have been mapped to the pv!
+An extra input has been set up to map the values to be stored
+A script task has been created to format the data
+The assignment has been set to the process initiator
+2
+
+Which of the following is true regarding making an Action available to users?
+Actions can be configured to display in Outlook.
+Actions are visible in a Site even if an application is not published.
+Actions capnot be displayed in an Embedded Interface
+A User Input Task that is not Chained from the Start Event is required to configure a Site Action Page.
+2
+
+A form uses a query that returns the desired labels and values used by Dropdown components displayed on a form. What is the best way to execute this query?
+The query should be executed directly on the label input and value input of the Dropdown component on the form.
+The labels should use a query expression,while the values should enumerate the results of the query.
+The query ould be executed inside the with()function and referenced using a local variable.
+The query should be executed within the allocalVariables()function and referenced using a local variable.
+4
+
+If a process has been paused or cancelled by exception,where should you first look to see the error?
+Export Logs
+Each Interface
+Administration Console
+Monitoring View in the Appian Designer
+4
+
